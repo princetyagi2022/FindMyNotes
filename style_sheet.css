@@ -298,6 +298,7 @@ main ul li a img:hover
     margin-top: 100px;
     border: radius 10px; ;
     height: 330px;
+    padding-left:10px;
     color: red;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
