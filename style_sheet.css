@@ -115,10 +115,22 @@ button{
     border-radius: 22px;
     color: black;
     font-size: 24px;
-    margin-left:-20%;
     background: transparent;
     font-family: 'Mukta',sans-serif;
-    margin-top: 10%;
+    margin-top: 200px;
+}
+.container
+{
+position: relative;
+margin-bottom: 450px;
+}
+.center{
+position: absolute;
+margin: 0;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
 }
 button:hover{
     background-color: white;
