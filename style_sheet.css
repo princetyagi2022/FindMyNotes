@@ -37,6 +37,12 @@
     margin-top: 15px;
     
 }
+.main
+{ 
+    background-image: url('Main_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 .nevbar ul li
 {
     margin-top: -10px;
