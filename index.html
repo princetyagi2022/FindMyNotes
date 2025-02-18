@@ -213,5 +213,31 @@
     }
 </script>
 
+
+<script>
+    window.onload = function() {
+        setTimeout(() => {
+            document.querySelector('.loading-overlay').classList.add('hidden');
+            document.querySelector('.login-container').style.display = 'block';
+        }, 2500); // Change 3000 to adjust the delay time
+    };
+</script>
+</head>
+<body>
+<div class="loading-overlay">
+    <div class="book">
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+    </div>
+</div>
+<div class="login-container">
+    <h2>Login</h2>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>
+ 
+
 </body>
 </html>
